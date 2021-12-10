@@ -39,7 +39,7 @@ const lightScheme: ColorScheme = {
     'base-100': '#EEEFF1', // make this darker
     'base-200': '#F7F8F9',
     'base-300': '#FFFFFF',
-    'base-content': '#AAB1B8',
+    'base-content': '#3e4549',
     info: '#C9B900',
     success: '#13CD88',
     warning: '#AAB1B8',
