@@ -1,4 +1,4 @@
-declare namespace veroConfigTypes {
+declare namespace types {
     interface ColorScheme {
         primary: string,
         'primary-focus': string,
@@ -22,4 +22,4 @@ declare namespace veroConfigTypes {
         error: string,
     }
 }
-export = veroConfigTypes;
+export default types;
