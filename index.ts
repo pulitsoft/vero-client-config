@@ -1,4 +1,4 @@
-import { ColorScheme } from "./interface";
+import types, { ColorScheme } from "./interface";
 
 const colorScheme:ColorScheme = {
     primary: '#793ef9',
@@ -23,7 +23,7 @@ const colorScheme:ColorScheme = {
     error: '#ff6f6f',
 }
 
-export { colorScheme }
+export { types, colorScheme }
 
 
 
