@@ -1,6 +1,6 @@
-import types from "./interface";
+import { ColorScheme, OneColor} from "./interface";
 
-const darkScheme:types.ColorScheme = {
+const darkScheme: ColorScheme = {
     primary: '#516DFA',
     'primary-focus': '#6A82FB',
     'primary-content': '#ffffff',
@@ -23,7 +23,7 @@ const darkScheme:types.ColorScheme = {
     error: '#D64A59',
 }
 
-const lightScheme:types.ColorScheme = {
+const lightScheme: ColorScheme = {
     primary: '#516DFA',
     'primary-focus': '#6A82FB',
     'primary-content': '#ffffff',
@@ -46,7 +46,7 @@ const lightScheme:types.ColorScheme = {
     error: '#D64A59',
 }
 
-const grayScheme:types.OneColor = {
+const grayScheme: OneColor = {
     100: "#FFFFFF",
     200: "#F7F8F9",
     300: "#EEEFF1",
@@ -58,7 +58,7 @@ const grayScheme:types.OneColor = {
     900: "#111314"
 }
 
-export { types, lightScheme, darkScheme, grayScheme }
+export { lightScheme, darkScheme, grayScheme }
 
 
 

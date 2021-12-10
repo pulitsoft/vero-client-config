@@ -1,4 +1,3 @@
-declare namespace types {
     interface ColorScheme {
         primary: string,
         'primary-focus': string,
@@ -21,7 +20,7 @@ declare namespace types {
         warning: string,
         error: string,
     }
-    interface OneColor{
+    interface OneColor {
         100: string,
         200: string,
         300: string,
@@ -32,5 +31,5 @@ declare namespace types {
         800: string,
         900: string,
   }
-}
-export default types;
+
+export  { ColorScheme, OneColor };
