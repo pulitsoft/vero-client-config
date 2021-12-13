@@ -1,5 +1,28 @@
 import { ColorScheme, OneColor} from "./interface";
 
+export interface DesktopConfig {
+    width: {
+    leftMainNav: number;
+    leftSubNav: number;
+    rightNav: number;
+    };
+    height: {
+    topBar: number;
+    };
+}
+  
+const desktopConfig: DesktopConfig = {
+    width: {
+        leftMainNav: 80,
+        leftSubNav: 200,
+        rightNav: 150,
+    },
+    height: {
+        topBar: 44,
+    },
+};
+
+
 const darkScheme: ColorScheme = {
     primary: '#516DFA',
     'primary-focus': '#6A82FB',
@@ -58,7 +81,7 @@ const grayScheme: OneColor = {
     900: "#111314"
 }
 
-export { lightScheme, darkScheme, grayScheme }
+export { lightScheme, darkScheme, grayScheme, desktopConfig }
 
 
 

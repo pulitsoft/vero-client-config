@@ -1,6 +1,17 @@
 "use strict";
 exports.__esModule = true;
-exports.grayScheme = exports.darkScheme = exports.lightScheme = void 0;
+exports.desktopConfig = exports.grayScheme = exports.darkScheme = exports.lightScheme = void 0;
+var desktopConfig = {
+    width: {
+        leftMainNav: 80,
+        leftSubNav: 200,
+        rightNav: 150
+    },
+    height: {
+        topBar: 44
+    }
+};
+exports.desktopConfig = desktopConfig;
 var darkScheme = {
     primary: '#516DFA',
     'primary-focus': '#6A82FB',
